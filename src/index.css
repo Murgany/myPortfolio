@@ -1,0 +1,217 @@
+:root {
+    --bg-color: black;
+    --primary-color: black;
+    --secondary-color: #1d1d1d;
+    --card-text-color: #fdfeff;
+    --text-color: #fdfdfd;
+    --text-color-2: #fdfeff;
+    --text-color-3: #e8b923;
+    --social-icons-color: #e8b923;
+    --button-color: #e8b923;
+    /* --button-hover-color: #e8b923; */
+    /* --header-color: #d4af37; */
+
+    /* --sub-title-text-color: #; */
+    --bg-anime: url('/public/animation/earth-black.gif');
+    --overlay-color: #0d0d0d;
+    /* --overlay-color-home: rgba(13, 13, 13, 0.5); */
+    /* --header-ribon: #d4af37; */
+}
+
+[data-theme="light"] {
+    --bg-color: #fdfeff;
+    --primary-color: #fdfeff;
+    --secondary-color: #e4e1e2;
+    --card-text-color: black;
+    --text-color: black;
+    --text-color-2: black;
+    --text-color-3: #ff0000;
+    --button-color: #ff0000;
+    --bg-anime: url('/public/animation/chiffres-defilants.gif');
+    --social-icons-color: #ff0000;
+    /* --button-hover-color: #ff0000; */
+
+    /* --header-color: #ff0000; */
+    /* --sub-title-text-color: ; */
+    --overlay-color: hsla(330, 100%, 100%);
+    /* --header-ribon: #ff0000; */
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: visible;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Raleway', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* padding-top: 60px; */
+    /* border-left: 10px solid var(--primary-color);
+    border-right: 10px solid var(--primary-color); */
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Marcellus;
+}
+
+a,
+a:hover {
+    color: var(--text-color);
+}
+
+p {
+    word-break: break-word;
+    hyphens: auto;
+}
+
+.ovhidden {
+    overflow: hidden;
+}
+
+.text_2,
+.text_2:hover {
+    color: var(--text-color-2);
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.cursor__dot div {
+    z-index: 999999 !important;
+}
+
+.cursor__dot div:last-child {
+    background-color: var(--text-color-3) !important;
+}
+
+.cursor__dot div:first-child {
+    filter: invert(1);
+    background-color: var(--overlay-color) !important;
+}
+
+.color_pr {
+    color: var(--primary-color) !important;
+}
+
+.color_sec {
+    color: var(--sub-title-text-color);
+}
+
+
+.blue-bg {
+    background-color: #4d53b3;
+  }
+  .white-bg {
+    background-color: #fdfeff;
+  }
+  .light-bg {
+    background-color: #c3d4ee;
+  }
+  
+  .light-text {
+    color: #c3d4ee;
+  }
+  .white-text {
+    color: #fdfeff;
+  }
+  .blue-text {
+    color: #4d53b3;
+  }
+  .dim-blue-text {
+    color: #6f7bc5;
+  }
+  
+  .dark-text {
+    color: #555;
+  }
+
+  .top {
+    --top: 
+     linear-gradient(#000 0 0) top/100% calc(100% - 50px) no-repeat,
+     radial-gradient(farthest-side,#000 98%,#0000) bottom/100px 100px no-repeat;
+    -webkit-mask: var(--top);
+            mask: var(--top);
+  }
+  .bottom {
+    --bottom: radial-gradient(calc(10px + 50px) at 50% -10px,#0000 98%,#000);
+    -webkit-mask: var(--bottom);
+            mask: var(--bottom);
+    margin-top: -40px;
+  }
+
+  
+  /* body {
+    font-family: "Lato","Avenir Next",Arial,sans-serif;
+    margin: 0;
+    background: #000;
+    background-size: cover;
+  } */
+  
+  /* video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  } */
+  
+  /* .overlay {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  } */
+  /* .overlay h2, .overlay h1,  .overlay p {
+      background: #000 none repeat scroll 0 0;
+      color: tan;
+      font-weight: 600;
+      margin: 2rem 3rem 0;
+      mix-blend-mode: overlay;
+      padding: 5px 15px;
+      text-align: center;
+  } */
+
+   /* header { */
+    /* background:tan !important; */
+    /* position: fixed; */
+    /* width: 100%; */
+    /* text-align: center; */
+    /* color: white; */
+    /* -webkit-transition: .4s; */
+    /* transition: .4s; */
+    /* padding: 0.5em; */
+  /* } */
+  /*
+  nav a {
+      color: inherit;
+      padding: 0 12px;
+      text-decoration: none;
+  }
+   */
