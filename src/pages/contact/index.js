@@ -17,9 +17,13 @@ export const ContactUs = () => {
     variant: "",
   });
 
+  // Message submissiom
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setFormdata({ loading: true });
+
+    // collect form data
 
     const templateParams = {
       from_name: formData.email,
@@ -27,6 +31,8 @@ export const ContactUs = () => {
       to_name: contactConfig.YOUR_EMAIL,
       message: formData.message,
     };
+
+    // send data through emailjs
 
     emailjs
       .send(
@@ -37,7 +43,7 @@ export const ContactUs = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          // if successful
           setFormdata({
             loading: false,
             alertmessage: "SUCCESS! ,Thankyou for your messege",
@@ -46,6 +52,7 @@ export const ContactUs = () => {
           });
         },
         (error) => {
+          // if failed
           console.log(error.text);
           setFormdata({
             alertmessage: `Faild to send!,${error.text}`,
@@ -56,6 +63,10 @@ export const ContactUs = () => {
         }
       );
   };
+  // Message submissiom end
+
+
+  // accept user input on form
 
   const handleChange = (e) => {
     setFormdata({
@@ -64,10 +75,12 @@ export const ContactUs = () => {
     });
   };
 
-
   return (
     <HelmetProvider>
       <Container>
+
+        {/* Meta data for SEO */}
+
         <Helmet>
           <meta charSet="utf-8" />
           <title>{meta.title} | Contact</title>
@@ -81,6 +94,9 @@ export const ContactUs = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="12">
+
+            {/* show alert after sending message */}
+
             <Alert
               //show={formData.show}
               variant={formData.variant}
@@ -93,6 +109,9 @@ export const ContactUs = () => {
               <p className="my-0">{formData.alertmessage}</p>
             </Alert>
           </Col>
+
+          {/* Contact information */}
+
           <Col lg="5" className="mb-5">
             <h3 className="color_sec py-4">Get in touch</h3>
             <address>
@@ -112,6 +131,9 @@ export const ContactUs = () => {
             </address>
             <p>{contactConfig.description}</p>
           </Col>
+
+          {/* On-site contact form */}
+
           <Col lg="7" className="d-flex align-items-center">
             <form onSubmit={handleSubmit} className="contact__form w-100">
               <Row>
@@ -153,7 +175,7 @@ export const ContactUs = () => {
               <br />
               <Row>
                 <Col lg="12" className="form-group">
-                  <button className="btn ac_btn" type="submit">
+                  <button className="btn ac_btn my-4" type="submit">
                     {formData.loading ? "Sending..." : "Send"}
                   </button>
                 </Col>
@@ -162,6 +184,9 @@ export const ContactUs = () => {
           </Col>
         </Row>
       </Container>
+
+      {/* Show loading animation when sending message*/}
+
       <div className={formData.loading ? "loading-bar" : "d-none"}></div>
     </HelmetProvider>
   );

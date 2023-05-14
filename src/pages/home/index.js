@@ -9,24 +9,27 @@ export const Home = () => {
   return (
     <HelmetProvider>
       <section id="home" className="home">
+
+        {/* helmed | meta data for SEO */}
         <Helmet>
           <meta charSet="utf-8" />
           <title> {meta.title}</title>
           <meta name="description" content={meta.description} />
         </Helmet>
-        <div className="h_bg-image h-">
-          <div className="h-100 pt-5 d-flex align-items-center justify-content-center">
+
+        {/* Home page content */}
+        <div className="h_bg-image align-items-cente">
+          <div className="h-100 d-flex align-items-center">
             <div className="align-self-center">
-              <div className="intro text mx-aut">
-                <h2 className="mb-1x mt-5">{introdata.title}</h2>
-                <h1 className="fluidz-48 mb-1x">
+              <div className="intro text">
+                <h2>{introdata.title}</h2>
+                <h1>
                   <Typewriter
                     options={{
                       strings: [
                         introdata.animated.first,
                         introdata.animated.second,
                         introdata.animated.third,
-                        introdata.animated.fourth,
                       ],
                       autoStart: true,
                       loop: true,
@@ -34,10 +37,14 @@ export const Home = () => {
                     }}
                   />
                 </h1>
-                <p className="mb-1x">{introdata.description}</p>
-                <div className="justify-content-center mt-5">
-                  <Link to="/portfolio" className="text_2">
-                    <div id="button_p" className="ac_btn btn me-3">
+                <h6>{introdata.description}</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+            <div className="d-flex justify-content-center">
+                <Link to="/portfolio" className="text_2">
+                    <div id="button_p" className="ac_btn ac_btn-home btn me-3">
                       Portfolio
                       <div className="ring one"></div>
                       <div className="ring two"></div>
@@ -45,18 +52,14 @@ export const Home = () => {
                     </div>
                   </Link>
                   <Link to="/contact">
-                    <div id="button_h" className="ac_btn btn">
-                      Contact
+                    <div id="button_h" className="ac_btn ac_btn-home btn">
+                      Say hi
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
       </section>
     </HelmetProvider>
   );

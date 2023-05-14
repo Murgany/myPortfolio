@@ -1,76 +1,58 @@
-.po_items_ho {
-    column-width: 15em;
-    -moz-column-width: 15em;
-    -webkit-column-width: 15em;
-    column-gap: 4rem;
-    -moz-column-gap: 4rem;
-    -webkit-column-gap: 4rem;
+/* po_item = portforlio item. The rest is self explanatory. */
+
+.po_items_home {
+    background: var(--secondary-color);
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    padding: 10px;
+    transition: 0.5s all ease;
+}
+
+.po_items_home:hover {
+    transform: scale(1.05, 1.05);
+    transition: 0.5s all ease;
+    background: var(--overlay-color);
 }
 
 .po_item {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    margin: 0.5rem auto;
+    margin: 0.8rem auto;
     position: relative;
-    background: var(--secondary-color);
-    padding: 10px;
-    border: 1px solid var(--secondary-color);
-    transition: 0.3s ease;
-    font-size: 0;
-    min-height: 300px;
+    transition: 0.3s all ease;
 }
 
 .po_item img {
     max-width: 100%;
-    filter: grayscale(100%);
+    background: white;
+    min-height: 220px;
+    transition: 0.3s all ease;
+    border-radius: 0%;
+    border: 7px solid white;
+}
+
+.po_item img:hover {
+    max-width: 100%;
+    transition: 0.3s all ease;
+    box-shadow: 0px 16px 48px 0px var(--primary-color);
 }
 
 .po_item .content {
-    position: absolute;
-    height: 0;
-    width: 0;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: var(--overlay-color);
     z-index: 1;
-    display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
     height: 100%;
     width: 100%;
     transition: 0.3s ease-in-out;
-    opacity: 0;
-    /* border: 1px solid black; */
 }
 
 .po_item .content {
-    opacity: 0;
     transition-delay: 1s;
     transition: 0.3s ease;
-    font-size: 20px;
+    font-size: 17px;
 }
 
-.po_item:hover {
-    box-shadow: 0  4px 8px 0 rgba(0, 0, 0, 0.4);
-}
-
-.po_item:hover .content {
-    height: calc(100% - 20px);
-    width: calc(100% - 20px);
-    opacity: 1;
-}
-
-.po_item:hover .content {
-    opacity: 1;
-    color: var(--card-text-color);
-}
 
 .po_item .content a {
-    background: var(--bg-color);
-    border: solid 1px var(--button-color);
     color: var(--button-color);
     padding: 4px 8px;
     text-align: center;
@@ -80,4 +62,23 @@
 
 .po_item .content a:hover {
     text-decoration: none;
+}
+
+
+@media screen and (max-width: 574px) {
+    .mobile {
+display: block;
+}
+.non-phone-screen {
+    display: none;
+    } 
+}
+
+@media screen and (min-width: 575px) {
+   .non-phone-screen {
+display: block;
+} 
+.mobile {
+    display: none;
+    }
 }

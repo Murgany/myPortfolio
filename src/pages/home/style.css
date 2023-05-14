@@ -2,7 +2,6 @@ section {
     flex: 1 0 auto;
     position: relative;
     width: 100%;
-    height: 100vh;
     -webkit-transition: all .5s ease-in;
     -o-transition: all .5s ease-in;
     transition: all .5s ease-in;
@@ -38,37 +37,39 @@ section {
     background-size: contain;
     background-attachment: fixed;
     object-fit: contain;
-    width: 100vw;
+    width: calc(100vw - 20%);
     height: calc(100vh - 100px);
-    position: relative;
-    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 
 .intro {
-    max-width: 750px;
+    max-width: 950px;
     margin: 0 auto;
+    margin-top: 50px;
 }
 
-@media (max-width:991.98px) {
+@media (max-width: 991px) {
        .intro {
         max-width: 700px;
-        padding-left: 20px;
-        padding-right: 20px;
+        margin-top: -50px;
     }
 }
 
-.text h1 {
-    font-size: 30px;
+.text h1, .text h6, .text h2 {
+    font-weight: bold;
+}
+
+.text h2 {
     margin-bottom: 50px;
-    font-weight: 700;
+    margin-top: -50px;
 }
 
-.text h3 {
-    font-size: 16px;
-    font-weight: 700;
+.text h6 {
+    margin-top: 30px;
 }
-
-.ac_btn {
+.ac_btn, .ac_btn-home {
     padding: 4px 15px;
     color: var( --button-color);
     position: relative;
@@ -78,6 +79,10 @@ section {
     cursor: pointer;
     border-radius: 0;
 }
+.ac_btn-home {
+    margin-top: -25vh;
+    margin-bottom: 5vh;
+}
 
 .ac_btn a {
     text-decoration: none;
@@ -86,7 +91,6 @@ section {
 .ac_btn:hover {
     box-shadow: 8px 8px 0px var(--text-color), -8px -8px 0px var(--text-color);
     color: var( --button-hover-color);
-    
 }
 
 .ac_btn:hover .one {
@@ -109,7 +113,6 @@ section {
 .ac_btn .ring {
     width: 100%;
     height: 100%;
-    position: absolute;
     background: transparent;
     top: 0;
     left: 0;

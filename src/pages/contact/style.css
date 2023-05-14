@@ -1,21 +1,34 @@
+/* Contact form styling */
+
 .contact__form .form-control {
-    /* padding: 1.375rem .75rem; */
-    line-height: 1.5;
+    padding: .75rem .75rem;
+    line-height: 1;
     color: var(--text-color);
     background-color: var(--secondary-color);
     border-radius: 0 !important;
     border: 1px solid var(--secondary-color);
+    color: var(--text-color-3);
+    font-size: 17px
+
 }
+.contact__form .form-control:focus,
+.contact__form .form-control:active{
+    outline: 4px solid var(--overlay-color)
+  }
 
 .contact__form input.form-control {
     margin-bottom: 1em;
-    /* height: calc(2.5em + .75rem + 2px); */
-    /* height: 2em; */
+}
+
+.contact__form .form-control:hover {
+    background: var(--overlay-color);
 }
 
 button.btn.ac_btn:hover {
     color: var(--button-color);
 }
+
+/* show loading when sending message */
 
 .loading-bar {
     position: fixed;

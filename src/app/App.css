@@ -40,3 +40,18 @@
         max-width: 1140px;
     }
 }
+
+.sidebar-layout {
+    width: 20%;
+  }
+
+  .screen-layout {
+    width: 70%;
+    justify-content: center;
+  }
+  
+@media (max-width: 767px) {
+  .screen-layout {
+    width: 100%;
+  }
+}

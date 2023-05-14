@@ -1,8 +1,9 @@
+/* Social icons styling */
+
 .stick_follow_icon {
     top: 50%;
-    left: 30px;
+    right: 30px;
     width: 20px;
-    /* height: 200px; */
     position: fixed;
     margin-top: -100px;
 }

@@ -1,16 +1,4 @@
-.sec_sp {
-    margin-bottom: calc(3rem + 5.128vw)
-}
-
-.table td,
-.table th {
-    color: var(--text-color);
-}
-
-.t_border {
-    border-color: var(--text-color) !important;
-}
-
+/* progress bar */
 .progress-title {
     font-size: 16px;
     font-weight: 700;
@@ -24,6 +12,7 @@
     border-radius: 0;
     box-shadow: none;
     margin-bottom: 30px;
+    margin-top: 30px;
     overflow: visible;
 }
 
@@ -56,6 +45,10 @@
         width: 0%;
     }
 }
+/* progress bar end */
+
+
+/* This part is self explanatory */
 
 .section-title {
     font-size: 45px;
@@ -71,42 +64,21 @@
 }
 
 
-/*! CSS Used keyframes */
-
-@-webkit-keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 100%, 0);
-        transform: translate3d(0, 100%, 0);
-    }
-    to {
-        opacity: 1;
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
-    }
-}
-
-@keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 100%, 0);
-        transform: translate3d(0, 100%, 0);
-    }
-    to {
-        opacity: 1;
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
-    }
-}
-
 .skills-bg {
     background-color: var(--secondary-color);
+    transition: all ease 0.3s;
+}
+
+.skills-bg:hover {
+    background-color: var(--overlay-color);
+    transition: all ease 0.3s;
 }
 
 .profile-img {
-    background-color: var(--secondary-color);
+    background-color: transparent;
     max-width: 220px;
     border-radius: 5000px;
+    filter: grayscale(100%);
 }
 
 @media screen and (max-width: 745px) {
@@ -114,6 +86,25 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
         margin: auto;
     }
+}
+
+.link-color {
+    color: var(--text-color-3);
+    text-decoration: none;
+}
+
+.text-muted {
+    color: var(--text-muted) !important;
+}
+
+.about-sec-img {
+    filter: grayscale(99%);
+    border: 7px solid var(--primary-color);
+}
+
+.about-sec-img:hover {
+    box-shadow: 0px 16px 48px 0px var(--primary-color);
 }
