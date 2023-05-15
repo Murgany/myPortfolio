@@ -111,7 +111,7 @@
   .bg__menu {
     width: 60%;
     will-change: transform;
-    transform: translateY(-100%);
+    transform: translateX(-100%);
     transition: .5s ease all;
    }
   }
