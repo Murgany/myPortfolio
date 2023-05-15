@@ -17,7 +17,7 @@
 [data-theme="light"] {
     --bg-color: #fdfdfd;
     --primary-color: #fdfeff;
-    --secondary-color: #e4e1e2;
+    --secondary-color: #f2f2f2;
     --card-text-color: black;
     --text-color: black;
     --text-color-2: black;
@@ -25,10 +25,9 @@
     --button-color: #ff0000;
     --bg-anime: url('/public/animation/chiffres-defilants.gif');
     --social-icons-color: #ff0000;
-    --overlay-color: #c7c4c4;
+    --overlay-color: #e5e5e5;
     --header-ribon: #ff0000;
     --text-muted: rgb(78, 78, 78) !important;
-
 }
 
 html,
