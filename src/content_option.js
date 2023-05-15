@@ -21,7 +21,7 @@ const introdata = {
 
 const dataabout = {
     title: "About myself",
-    aboutme: "I am a full-stack Django developer with a strong background in Python, HTML, CSS, various frontend and backend libraries, and databases. I was born in Sudan, grew up a refugee in Uganda and living as a refugee in Egypt. As a refugee, I bring resilience, adaptability, and a strong work ethic to all my projects. I am passionate about creating exceptional user experiences and collaborating effectively with colleagues and stakeholders. Let's build something great together.",
+    aboutme: "Full-stack Django developer with 2 years experience in Python/Django , HTML, CSS, React, various frontend and backend libraries, and databases. With a resilient and adaptable mindset, I possess excellent conflict resolution and problem-solving skills that allow me to overcome obstacles and deliver high-quality results. I am constantly seeking out new challenges, and am excited to utilize my skills to make a positive impact. I am currently seeking a challenging opportunity where I can use my skills and experience to make a positive impact. Let's work together to build something great.",
 };
 
 const certifications = [
