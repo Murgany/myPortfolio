@@ -18,12 +18,12 @@ export const Home = () => {
         </Helmet>
 
         {/* Home page content */}
-        <div className="h_bg-image align-items-cente">
+        <div className="h_bg-image align-items-center">
           <div className="h-100 d-flex align-items-center">
             <div className="align-self-center">
               <div className="intro text">
-                <h2>{introdata.title}</h2>
-                <h1>
+                <h1 className="who_am_I">{introdata.title}</h1>
+                <h2>
                   <Typewriter
                     options={{
                       strings: [
@@ -36,8 +36,8 @@ export const Home = () => {
                       deleteSpeed: 10,
                     }}
                   />
-                </h1>
-                <h6>{introdata.description}</h6>
+                </h2>
+                <h5>{introdata.description}</h5>
               </div>
             </div>
           </div>
