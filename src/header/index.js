@@ -67,23 +67,24 @@ const Headermain = () => {
                         &emsp;Contact
                       </Link>
                     </li>
-                    <li className="menu_item-2">
-                      <a
-                        className="mt-5"
+                  </ul>
+
+                  <div className="menu_footer-2 position-absolute pt-">
+                    <div>
+                    <a
                         href="img/Resume-Rawy-Murgany.pdf"
                         download="img/Resume-Rawy-Murgany.pdf"
                       >
                         Download Resume
-                      </a>
-                    </li>
-                    <li className="menu_item-2">
-                      <a className=""
+                      </a> <br />
+                    <a
                         href="img/Letter of support for Rawy Murgany.pdf"
                         download="img/Letter of support for Rawy Murgany.pdf">
                          Letter of Support
                       </a>
-                    </li>
-                  </ul>
+                    </div>
+                  </div>
+
                   <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 py-3">
                     <div className="d-flex">
                       <a href={socialprofils.github} target="_blank">Github</a>
