@@ -1,10 +1,10 @@
 ### Description
 
-A simple portfolio template for developer/designers built with React. 
+A simple portfolio template for developers/designers built with React. 
 
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
+### [live preview](https://rawymurgany.netlify.app/)
 
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
+https://github.com/Murgany/myPortfolio
 
 ### Features
 
@@ -18,16 +18,16 @@ A simple portfolio template for developer/designers built with React.
 
 Get the code
 
-<pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
+<pre>git clone https://github.com/Murgany/myPortfolio.git</pre>
  
 Install required dependencies
 
-<pre>yarn install</pre>
+<pre>pip install</pre>
 
 
 Start the server
 
-<pre>yarn start</pre>
+<pre>npm start</pre>
 
 ### More
 
