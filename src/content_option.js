@@ -26,6 +26,11 @@ const dataabout = {
 
 const certifications = [
     {
+        certificate: "Developing Front-End Apps with React",
+        where: "IBM | Coursera",
+        verify_link: "https://www.coursera.org/account/accomplishments/certificate/4MWHVHN8VZJ7"
+    },
+    {
         certificate: "Web Application Technologies and Django",
         where: "Univerity of Michigan | Coursera",
         verify_link: "https://www.coursera.org/account/accomplishments/verify/6XAU6YYHL6LQ"
@@ -46,19 +51,14 @@ const certifications = [
         verify_link: "https://www.coursera.org/account/accomplishments/verify/QNX7XVQQLAZY"
     },
     {
-        certificate: "Python Classes and Inheritance",
-        where: "Univerity of Michigan | Coursera",
-        verify_link: "https://www.coursera.org/account/accomplishments/verify/LNPKV5UU692H"
-    },
-    {
-        certificate: "Python Functions, Files and Dictionaries",
-        where: "Univerity of Michigan | Coursera",
-        verify_link: "https://www.coursera.org/account/accomplishments/verify/FN4R9PR5YEJN"
-    },
-    {
         certificate: "Introduction to Cloud Computing",
         where: "IBM | Coursera",
         verify_link: "https://www.coursera.org/account/accomplishments/verify/RFAF3YCQPGU4"
+    },
+    {
+        certificate: "Introduction to Web Development with HTML, CSS, JavaScript",
+        where: "IBM | Coursera",
+        verify_link: "https://www.coursera.org/account/accomplishments/certificate/RDJ7LTMXK95Y"
     },
 ];
 
@@ -110,20 +110,6 @@ const services = [{
 
 const dataportfolio = [
     {
-        img: "img/Sudan-help.png",
-        title: "Missing Persons and Humanitarian Aid Platform",
-        desctiption: "The Missing Persons and Humanitarian Aid Platform is a web app aimed at helping those affected by the Sudan 2023 war. It includes missing persons reporting, hospital/pharmacy information, volunteer registration, and request for help submission. The platform aids in reuniting families, providing medical assistance, recruiting volunteers, and distributing aid effectively.",
-        link: "https://sudanhelp.pythonanywhere.com",
-        tech: "Django, HTML, CSS, JavaScript, Bootstrap",
-    },
-    {
-        img: "img/clinic-management-system.png",
-        title: "Clininc Management System",
-        desctiption: "A web-based platform that efficiently manages patient and doctor information, appointments, and diagnoses. It securely stores patient diagnosis information and manages doctor details, including their areas of specialization. The appointment feature allows patients to request appointments, and doctors can view and manage their schedules. The system is user-friendly, customizable, and scalable, making it a valuable tool for healthcare providers.",
-        link: "https://doctormina.pythonanywhere.com",
-        tech: "Django, HTML, CSS, Ajax, JQuery, bootstrap based Black-Dashboard"
-    },
-    {
         img: "img/medecgulf.png",
         title: "Medical Digital Engagement Center",
         desctiption: "Built for Merck Group (google it), the Digital Engagement Center is a web-based platform for healthcare professionals. It provides the latest medical updates, case studies, and surveys related to diseases and treatments. Users can register and login for personalized content and access to additional features (This feature can be disabled by admin). The admin can download data in excel-compatible CSV format for analysis and reporting. The platform aims to improve patient outcomes by providing valuable insights and feedback to healthcare professionals and quality heathcare for patients.",
@@ -137,21 +123,7 @@ const dataportfolio = [
         link: "https://fatherpakhomius.pythonanywhere.com/",
         tech: "Django, HTML, CSS, JavaScript, Ajax, JQuery, Bootstrap"
     },
-        {
-        img: "img/school-management-system.png",
-        title: "Students Management System",
-        desctiption: "A web application designed to manage student data and records for educational institutions. It includes modules for managing student information, attendance, grades, and course schedules. The system helps institutions streamline administrative tasks, and provide better insights into student performance.",
-        link: "https://simple-school-system.netlify.app/",
-        tech: "Django, Django Rest Framework, React, CSS, Bootstrap"
-    },
-        {
-        img: "img/portfolio-img.png",
-        title: "An earlier portfolio website",
-        desctiption: "An earlier portfolio website.",
-        link: "https://rawymo.netlify.app/",
-        tech: "React, CSS, Bootstrap"
 
-    },
 ];
 
 const contactConfig = {

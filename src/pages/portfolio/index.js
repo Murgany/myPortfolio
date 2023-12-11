@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 export const Portfolio = () => {
   return (
     <HelmetProvider>
-      <Container className="About-header mt-5 mb-4">
+      <Container className="my-5 pt-5 mb-">
         {/* Meta data for SEO */}
         <Helmet>
           <meta charSet="utf-8" />
@@ -16,7 +16,7 @@ export const Portfolio = () => {
           <meta name="description" content={meta.description} />
         </Helmet>
         {/* Portfolio header */}
-        <Row className="mb-5 mt-3 pt-md-3">
+        <Row className="mb-3 mt-3 pt-md-3">
           <Col lg="4">
             <h1 className="display-4 mb-4"> Portfolio </h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
@@ -41,10 +41,10 @@ export const Portfolio = () => {
                 <div className="col-sm-8 po_item">
                   <div className="content ">
                     <h4 className="mb-3">{data.title}</h4>
-                    <p className="non-phone-screen">{data.desctiption}</p>
+                    <p className="non-phone-screen text-muted">{data.desctiption}</p>
                     <details className="mobile">
                       <summary><strong>Project Description</strong></summary>
-                    <p>{data.desctiption}</p>
+                    <p className="text-muted">{data.desctiption}</p>
                     </details>
 
                     <div className="justify-content-center mt-5">

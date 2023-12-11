@@ -20,15 +20,15 @@ export default function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <div className="row justify-content-center page-ente">
-        {/* Custom cudor */}
+        {/* Custom cusor */}
         <div className="cursor__dot">
           <AnimatedCursor
             innerSize={12}
-            outerSize={15}
+            outerSize={14}
             color="255, 255 ,255"
-            outerAlpha={0.4}
+            outerAlpha={0.5}
             innerScale={0.7}
-            outerScale={2.5}
+            outerScale={1.5}
           />
         </div>
         
@@ -36,7 +36,7 @@ export default function App() {
           <div className="sidebar-layout justify-content-center">
             <Headermain />
           </div>
-          <div className="d-fle screen-layout justify-content-center">
+          <div className="screen-layout justify-content-center">
             <AppRoutes />
           </div>
         </ScrollToTop>

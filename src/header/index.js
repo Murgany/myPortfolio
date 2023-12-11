@@ -25,9 +25,9 @@ const Headermain = () => {
         <div className="d-flex align-items-center justify-content-between">
           <Link className="navbar-brand nav_ac" to="/">
             <img
-              src={introdata.logotext}
+              src="img/logo3.png"
               className="img-fluid"
-              style={{ width: "40px", height: "22px" }}
+              style={{ width: "50px", height: "30px", filter: "grayscale(45%)"}}
             />
           </Link>
           <div className="d-flex align-items-center">
@@ -37,11 +37,12 @@ const Headermain = () => {
             </button>
           </div>
         </div>
-        <div className="d-flex align-items-center justify-content-between">
+
+        <div className="d-flex align-items-center justify-content-between ">
           <div className={`site__navigation ${!isActive ? "menu__opend" : ""}`}>
-            <div className="bg__menu h-100">
+            <div className="bg__menu h-100 ">
               <div className="menu__wrapper">
-                <div className="p-3">
+                {/* <div className="p-3"> */}
                   <ul className="the_menu">
                     <li className="menu_item">
                       <Link onClick={handleToggle} to="/" className="my-3">
@@ -50,15 +51,21 @@ const Headermain = () => {
                         </Link>
                     </li>
                     <li className="menu_item">
+                      <Link onClick={handleToggle} to="/about" className="my-3">
+                        <FaUserCircle style={{ color: "var(--text-color-3)" }} />
+                        &emsp;About
+                      </Link>
+                    </li>
+                    <li className="menu_item">
                       <Link onClick={handleToggle} to="/portfolio" className="my-3" >
                         <FaBriefcase style={{ color: "var(--text-color-3)" }} />
                         &emsp;Portfolio
                       </Link>
                     </li>
                     <li className="menu_item">
-                      <Link onClick={handleToggle} to="/about" className="my-3">
+                      <Link onClick={handleToggle} to="/skills" className="my-3">
                         <FaUserCircle style={{ color: "var(--text-color-3)" }} />
-                        &emsp;About
+                        &emsp;Skills
                       </Link>
                     </li>
                     <li className="menu_item">
@@ -67,37 +74,38 @@ const Headermain = () => {
                         &emsp;Contact
                       </Link>
                     </li>
-                    <li className="menu_item-2">
-                      <a
-                        className="mt-5"
+                  </ul>
+
+                  <div className="menu_footer-2 position-absolute">
+                    {/* <div className="the_men position-absolut h_bg-image"></div> */}
+                  
+                    <div>
+                     <a
                         href="img/Resume-Rawy-Murgany.pdf"
                         download="img/Resume-Rawy-Murgany.pdf"
                       >
                         Download Resume
-                      </a>
-                    </li>
-                    <li className="menu_item-2">
-                      <a className=""
+                      </a> <br />
+                     <a
                         href="img/Letter of support for Rawy Murgany.pdf"
                         download="img/Letter of support for Rawy Murgany.pdf">
                          Letter of Support
                       </a>
-                    </li>
-                  </ul>
-                  <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3">
-                    <div className="d-flex">
-                      <a href={socialprofils.github} target="_blank">Github</a>
+                    </div>
+                    <div className="menu_footer d-flex">
+                      <a href={socialprofils.github} target="_blank">Github</a><strong>&nbsp;|&emsp;</strong>
                       <a href={socialprofils.linkedin} target="_blank">Linkedin</a>
                     </div>
                   </div>
-                </div>
+               
+                {/* </div> */}
               </div>
             </div>
           </div>
         </div>
       </header>
-      <div className="br-top"></div>
-      <div className="br-bottom"></div>
+      {/* <div className="br-top"></div>
+      <div className="br-bottom"></div> */}
     </>
   );
 };

@@ -1,163 +1,185 @@
 section {
-    flex: 1 0 auto;
-    position: relative;
-    width: 100%;
-    -webkit-transition: all .5s ease-in;
-    -o-transition: all .5s ease-in;
-    transition: all .5s ease-in;
+  flex: 1 0 auto;
+  position: relative;
+  width: 100%;
+  -webkit-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 .who_am_I {
-    font-family: Cinzel;
+  font-family: Cinzel;
 }
 
 .has-first-color {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .btn-portfolio {
-    background: var(--primary-color);
-    border-radius: 0;
+  background: var(--primary-color);
+  border-radius: 0;
 }
 
 .btn-portfolio a {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 
 .btn-about a {
-    color: var(--text-color);
-    text-decoration: none;
-}
-
-.h_bg-image {
-    background-image: var( --bg-anime);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-attachment: fixed;
-    object-fit: contain;
-    width: calc(100vw - 20%);
-    height: calc(100vh - 100px);
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+  color: var(--text-color);
+  text-decoration: none;
 }
 
 .intro {
-    max-width: 950px;
-    margin: 0 auto;
-    margin-top: 50px;
+  max-width: 950px;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
 @media (max-width: 991px) {
-       .intro {
-        max-width: 700px;
-        margin-top: -50px;
-    }
+  .intro {
+    max-width: 700px;
+    margin-top: -70px;
+  }
 }
 
-.text h1, .text h6, .text h2 {
-    font-weight: bold;
+.text h1,
+.text h6,
+.text h2 {
+  font-weight: bold;
 }
 
 .text h2 {
-    margin-bottom: 50px;
-    margin-top: -50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
-.text h6 {
-    margin-top: 30px;
+/* .h_bg-image h3 {
+  color: var(--text-color);
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+} */
+
+.buttons-layout {
+  width: 50%;
+  display: flex;
 }
-.ac_btn, .ac_btn-home {
-    padding: 4px 15px;
-    color: var( --button-color);
-    position: relative;
-    border: var(  --button-color) 2px solid;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
-    cursor: pointer;
-    border-radius: 0;
+@media screen and (max-width: 574px) {
+  .buttons-layout {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: autp;
+    display: flex;
+  }
+}
+
+.ac_btn,
+.ac_btn-home {
+  padding: 4px 15px;
+  color: var(--button-color);
+  position: relative;
+  border: var(--button-color) 2px solid;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  cursor: pointer;
+  border-radius: 0;
 }
 .ac_btn-home {
-    margin-top: -25vh;
-    margin-bottom: 5vh;
+  margin-top: -25vh;
+  /* margin-bottom: 0vh; */
 }
 
 .ac_btn a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .ac_btn:hover {
-    box-shadow: 8px 8px 0px var(--text-color), -8px -8px 0px var(--text-color);
-    color: var( --button-hover-color);
+  box-shadow: 8px 8px 0px var(--text-color), -8px -8px 0px var(--text-color);
+  color: var(--button-hover-color);
 }
 
 .ac_btn:hover .one {
-    opacity: 1;
-    transform: translate3d(0px, 0px, 0px);
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
 }
 
 .ac_btn:hover .two {
-    transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
 }
 
 .ac_btn:hover .three {
-    transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
 }
 
 .ac_btn:hover .four {
-    transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
 }
 
 .ac_btn .ring {
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    top: 0;
-    left: 0;
-    transform: translate3d(0px, 90px, 0px);
+  width: 100%;
+  height: 100%;
+  background: var(--button-bg);
+  top: 0;
+  left: 0;
+  transform: translate3d(0px, 90px, 0px);
 }
 
 .ac_btn .one {
-    background-color: #000;
-    transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
-    z-index: -3;
-    z-index: -4;
+  background-color: #000;
+  transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -3;
+  z-index: -4;
 }
 
 .ac_btn .two {
-    background-color: var( --button-color);
-    transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
-    z-index: -3;
+  background-color: var(--button-color);
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -3;
 }
 
 .ac_btn .three {
-    background-color: var( --button-color);
-    z-index: -2;
-    transition: all 0.7s cubic-bezier(0.55, 0, 0.1, 1);
-    z-index: -3;
+  background-color: var(--button-color);
+  z-index: -2;
+  transition: all 0.7s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -3;
 }
 
 #button_p {
-    background: var( --button-color);
-    color: var(--primary-color);
+  background: var(--button-color);
+  color: var(--primary-color);
 }
 
 #button_h:hover {
-    color: var(--button-color)
+  color: var(--button-color);
 }
 
-.h_bg-image h3 {
-    font-size: 14px;
-    color: var(--text-color);
-    letter-spacing: .1rem;
-    font-weight: 700;
-    margin-bottom: 15px;
+.testimonial_item {
+  margin: 0.8rem auto;
+  position: relative;
+  transition: 0.3s all ease;
+  justify-content: center;
+  display: flex;
 }
 
-.h_bg-image p {
-    font-size: 14px;
-    line-height: 1.3;
-    color: var(--text-color)
+.testimonial_item img {
+  max-width: 250px;
+  background: radial-gradient(circle, var(--img-bg-color-1), var(--img-bg-color-2));
+  margin: auto;
+  max-height: 250px;
+  transition: 0.3s all ease;
+  border-radius: 50%;
+  border: 7px solid var(--border-color);
 }
+
+.testimonial_item img:hover {
+  transition: 0.3s all ease;
+  box-shadow: 0px 16px 48px 0px var(--testimonial-img-hover-color);
+}
+
+.content {
+  text-align: justify;
+  text-justify: inter-word;
+}
+

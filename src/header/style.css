@@ -1,9 +1,9 @@
 /* Header and side-menu styling */
 .site__header {
-    top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-bottom: 1px solid var(--header-color);
+    /* top: 10px; */
+    padding: 10px;
+    /* border-bottom: 0.1px solid var(--header-ribon); */
+    border-bottom: 0.1px solid var(--menu-border);
     background: var(--primary-color);
   }
   
@@ -12,28 +12,24 @@
     color: var(--text-color);
   }
   
-  .menu__button:focus,
-  .menu__button:hover {
-    color: var(--text-color);
-    box-shadow: unset;
-  }
-  
   .nav_ac {
     padding: 5px 15px;
     margin: 0;
+    top: 0;
     border: unset;
-    background: var(--header-color);
-    font-size: 1.25rem;
+    background: var(--header-ribon);
+    font-size: 1.7rem;
     font-family: Marcellus;
-    color: var(--text-color-2);
-    line-height: 2;
-    height: 50px;
+    color: var(--ribon-icon-color);
+    height: 45px;
     font-weight: bold;
     z-index: 1000;
+    display: flex;
+    align-items: center;
   }
   
   .nav_ac:hover {
-    color: var(--text-color-2);
+    color: var(--ribon-icon-hover);
   }
   
   .br-top,
@@ -60,7 +56,7 @@
   .site__navigation {
     height: 100%;
     left: 0;
-    overflow: hidden;
+    overflow: auto;
     position: relative;
     top: 0;
     width: 100%;
@@ -78,7 +74,8 @@
     height: 100%;
     background-color: var(--primary-color);
     transition: .5s ease all;
-    border-right: 1px solid var(--text-color); 
+    margin-top: 10vh;
+    padding-top: 2vh;
   }
   
   .menu__opend .bg__menu {
@@ -88,19 +85,21 @@
   .menu__wrapper {
     position: relative;
     width: 100%;
-    height: 100vh;
-    overflow: hidden auto;
+    height: 100%;
+    overflow:  auto;
     align-items: center;
+    border-right: 0.3px solid var(--menu-border); 
+    padding-left: 20px;
   }
   
   .the_menu {
-    padding-top: 14vh;
-    padding-bottom: 10vh;
+    /* padding-top: 5vh; */
+    /* padding-bottom: 14vh; */
     padding-left: 0;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; 
+    justify-content: center;*/
   } 
-  
+
   @media screen and (min-width: 768px) {
     .menu__container {
         margin-left: 33.3333%;
@@ -112,18 +111,17 @@
   
   @media screen and (max-width: 767px) {
   .bg__menu {
-    width: 70%;
+    width: 69%;
     will-change: transform;
     transform: translateX(-100%);
     transition: .5s ease all;
    }
   }
 
-  .the_menu .menu_item>a,
-  .the_menu .menu_item-2>a {
-    color: var(--text-color-2);
+  .the_menu .menu_item>a
+  {
     line-height: 1;
-    font-size: 1.25rem;
+    font-size: 1rem;
     position: relative;
     transition: color 250ms cubic-bezier(0, 0, 0.58, 1) 0s;
     padding: 4px 0px;
@@ -132,31 +130,24 @@
     display: flex;
     align-items: baseline;
   }
-  .the_menu .menu_item-2>a {
-    font-size: 1rem;
-    margin-top: 1rem;
 
-    bottom: -5vh;
-    font-family: Marcellus;
-    font-size: 16px;
-  }
-
-  .the_menu .menu_item>a:hover,
-  .the_menu .menu_item-2>a:hover {
+  .the_menu .menu_item>a:hover
+  {
     color: var(--text-color-3);
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
   }
   
   @media (min-width: 768px) {
     .the_menu .menu_item>a {
-        font-size: 2.3vw;
+        font-size: 1.25rem;
     }
-    .the_menu .menu_item-2>a {
-      font-size: 1.8vw;
-  }
   }
 
-  
+  @media (min-width: 1040px) {
+    .the_menu .menu_item>a {
+        font-size: 1.35rem;
+  }
+}
   .menu_footer {
     bottom: 0;
     font-family: Marcellus;
@@ -168,5 +159,57 @@
     margin-right: 10px;
     text-decoration: none;
   }
+
+  .menu_footer-2 {
+    bottom: 13vh;
+    font-family: Marcellus;
+    font-size: 1rem;
+  }
+
+  .menu_footer-2 a {
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 2;
+  }
+
+  .menu_footer-2 a:hover {
+    color: var(--text-color-3);
+    text-decoration: underline;
+  }
   
-  
+  @media (min-width: 1040px) {
+    .menu_footer-2 a {
+      font-size: 1.2rem;
+  }
+  }
+
+  .h_bg-image {
+    background-image: var(--bg-anime);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    object-fit: contain;
+    /* width: calc(100vw -50%); */
+    /* height: calc(100vh - 100px); */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    z-index: -9999;
+    /* background-color: var(--img-bg-color-1); */
+    transition: 0.5s all ease;
+    border-radius: 5000px;
+    padding-left: 0;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3vh;
+    padding-bottom: 14vh;
+    /* filter: opacity(.6) */
+  }
+  /* .menu_anime {
+  }  */
+  .h_bg-image:hover {
+    transition: 0.5s all ease;
+    box-shadow: 0px 16px 48px 0px var(--img-hover-color);
+  }

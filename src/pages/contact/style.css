@@ -6,11 +6,10 @@
     color: var(--text-color);
     background-color: var(--secondary-color);
     border-radius: 0 !important;
-    border: 1px solid var(--secondary-color);
-    color: var(--text-color-3);
+    border: 1px solid var(--menu-border);
     font-size: 17px
-
 }
+
 .contact__form .form-control:focus,
 .contact__form .form-control:active{
     outline: 4px solid var(--overlay-color)
