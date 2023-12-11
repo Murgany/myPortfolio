@@ -120,7 +120,7 @@ const dataportfolio = [
         img: "img/church-website.png",
         title: "Church Media Distribution Platform",
         desctiption: "An online platform designed to provide access to audio sermons and PDF books to the congregation in Egypt. The website serves as a digital library where members can access a wide range of religious resources that help them deepen their faith and understanding of the Bible. The website is user-friendly and easy to navigate, with clear categories for sermons and books. Members can stream or download audio sermons and read or download PDF.",
-        link: "https://fatherpakhomius.pythonanywhere.com/",
+        link: "https://frpakhomius.com/",
         tech: "Django, HTML, CSS, JavaScript, Ajax, JQuery, Bootstrap"
     },
 
