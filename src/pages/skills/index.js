@@ -31,7 +31,7 @@ export const Skills = () => {
         </Row>
           <Col lg="5">
             <img src="img/skills.jpeg" className="img-fluid common-img" />
-            <img src="img/full-stack-web-developer.jpeg" className="img-fluid mb-0 pb-0 mt-5 common-img" />
+            // <img src="img/full-stack-web-developer.jpeg" className="img-fluid mb-0 pb-0 mt-5 common-img" />
           </Col>
           <Col lg="7" className="pt- mt-">
             {skills.map((data, i) => {
