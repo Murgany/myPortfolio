@@ -82,7 +82,7 @@ const Headermain = () => {
                     <div>
                      <a
                         href="img/Resume-Rawy-Murgany.pdf"
-                        download="img/Rawy-Murgany-Resume.docx"
+                        download="img/Rawy-Murgany-Resume-1.pdf"
                       >
                         Download Resume
                       </a> <br />
