@@ -146,8 +146,8 @@ export const Home = () => {
         </div>
         
         <div className="d-flex testimonial_items_hom mx-3 mx-lg-0 justify-content-center">
-          <div className="row justify-content-between">
-            <div className="col-sm-5 mt-5">
+          <div className="row justify-content-center">
+            <div className="col-sm-5 mt-5 justify-content-center">
               <div className="testimonial_item">
                 <img
                   src="/img/testimonial2.png"
