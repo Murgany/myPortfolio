@@ -109,23 +109,23 @@ const services = [{
 ];
 
 const dataportfolio = [
-    {
-        img: "img/medecgulf.png",
-        title: "Medical Digital Engagement Center",
-        desctiption: "Built for Merck Group (google it), the Digital Engagement Center is a web-based platform for healthcare professionals. It provides the latest medical updates, case studies, and surveys related to diseases and treatments. Users can register and login for personalized content and access to additional features (This feature can be disabled by admin). The admin can download data in excel-compatible CSV format for analysis and reporting. The platform aims to improve patient outcomes by providing valuable insights and feedback to healthcare professionals and quality heathcare for patients.",
-        link: "https://medecgulf.com",
+        {
+        img: "img/church-website.png",
+        title: "Church Media Distribution Platform",
+        desctiption: "An online platform designed to provide access to audio sermons and PDF books to the congregation in Egypt. The website serves as a digital library where members can access a wide range of religious resources that help them deepen their faith and understanding of the Bible. The website is user-friendly and easy to navigate, with clear categories for sermons and books. Members can stream or download audio sermons and read or download PDF.",
+        link: "https://frpakhomius.com/",
         tech: "Django, HTML, CSS, JavaScript, Ajax, JQuery, Bootstrap"
     },
-
 ];
 
-    // {
-    //     img: "img/church-website.png",
-    //     title: "Church Media Distribution Platform",
-    //     desctiption: "An online platform designed to provide access to audio sermons and PDF books to the congregation in Egypt. The website serves as a digital library where members can access a wide range of religious resources that help them deepen their faith and understanding of the Bible. The website is user-friendly and easy to navigate, with clear categories for sermons and books. Members can stream or download audio sermons and read or download PDF.",
-    //     link: "https://frpakhomius.com/",
-    //     tech: "Django, HTML, CSS, JavaScript, Ajax, JQuery, Bootstrap"
-    // },
+  // {
+  //       img: "img/medecgulf.png",
+  //       title: "Medical Digital Engagement Center",
+  //       desctiption: "Built for Merck Group (google it), the Digital Engagement Center is a web-based platform for healthcare professionals. It provides the latest medical updates, case studies, and surveys related to diseases and treatments. Users can register and login for personalized content and access to additional features (This feature can be disabled by admin). The admin can download data in excel-compatible CSV format for analysis and reporting. The platform aims to improve patient outcomes by providing valuable insights and feedback to healthcare professionals and quality heathcare for patients.",
+  //       link: "https://medecgulf.com",
+  //       tech: "Django, HTML, CSS, JavaScript, Ajax, JQuery, Bootstrap"
+  //   },
+
 
 const contactConfig = {
     YOUR_EMAIL: "rawymo@outlook.com",
