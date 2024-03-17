@@ -172,32 +172,32 @@ export const Home = () => {
               </p>
             </div>
 
-            <div className="col-sm-5 mt-5">
-              <div className="testimonial_item">
-                <img
-                  src="/img/testimonial.png"
-                  alt=""
-                  className="img-fluid"
-                  style={{ borderRadius: "50%" }}
-                />
-              </div>
+            // <div className="col-sm-5 mt-5">
+              // <div className="testimonial_item">
+                // <img
+                //   src="/img/testimonial.png"
+                //   alt=""
+                //   className="img-fluid"
+                //   style={{ borderRadius: "50%" }}
+                // />
+              // </div>
 
-              <p
-                className="py-3 text-center"
-                style={{ color: "var(--text-color-3)" }}
-              >
-                <strong>Poula Banoub</strong>
-              </p>
-              <p className="content">
-                "Rawy's masterful design
-                of our website has created a user-friendly digital hub
-                for healthcare. Healthcare professionals can watch our case study 
-                episodes, perticipate in serveys, and effortlessly schedule appointments
-                and connect with our team through integrated WhatsApp chat,
-                enhancing communication and streamlining healthcare services. A true
-                testament to Rawy's expertise."
-              </p>
-            </div>
+              // <p
+              //   className="py-3 text-center"
+              //   style={{ color: "var(--text-color-3)" }}
+              // >
+              //   <strong>Poula Banoub</strong>
+              // </p>
+              // <p className="content">
+              //   "Rawy's masterful design
+              //   of our website has created a user-friendly digital hub
+              //   for healthcare. Healthcare professionals can watch our case study 
+              //   episodes, perticipate in serveys, and effortlessly schedule appointments
+              //   and connect with our team through integrated WhatsApp chat,
+              //   enhancing communication and streamlining healthcare services. A true
+              //   testament to Rawy's expertise."
+              // </p>
+            // </div>
           </div>
         </div>
       </section>
