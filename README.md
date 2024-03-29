@@ -4,7 +4,7 @@ A simple portfolio template for developers/designers built with React.
 
 ### [live preview](https://rawymurgany.netlify.app/)
 
-https://github.com/Murgany/myPortfolio
+https://rawymurgany.netlify.app
 
 ### Features
 
