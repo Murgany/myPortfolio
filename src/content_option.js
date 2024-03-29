@@ -139,7 +139,7 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com/Murgany",
+    github: "https://github.com/Murgany?tab=repositories",
     linkedin: "https://linkedin.com/in/rawy-mo",
 };
 export {
