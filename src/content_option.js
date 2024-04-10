@@ -114,14 +114,14 @@ const dataportfolio = [
         title: "Church Media Distribution Platform",
         description: "A user-friendly online platform for accessing and sharing multimedia content. Provides easy access to a vast collection of audio, video, and PDF files, functioning as a comprehensive digital library. Features a responsive and user-friendly interface with clear categories, making it effortless to navigate for users of all technical backgrounds. Allows admin to upload or embed multimedia files through a custom-built admin dashboard, streamlining the publishing process.",
         link: "https://frpakhomius.com/",
-        tech: "Django, HTML, CSS, JavaScript, Ajax, JQuery, Bootstrap"
+        tech: "Django, JavaScript, Ajax, JQuery, Bootstrap, HTML, CSS"
     },
        {
         img: "img/chatbot.png",
         title: "mAI: An AI Chat Bot. (Project in Progress)",
-        desctiption: "A user-friendly website featuring an AI chatbot to answer questions. Powered by Gemini, the chatbot leverages natural language processing (NLP) for engaging and informative user interactions. This project showcases my skills in artificial intelligence integration in web applications.",
+        description: "A user-friendly website featuring an AI chatbot to answer questions. Powered by Gemini, the chatbot leverages natural language processing (NLP) for engaging and informative user interactions. This project showcases my skills in artificial intelligence integration in web applications.",
         link: "https://rawychatbot.pythonanywhere.com/",
-        tech: "Django, Google Gemini, JavaScript, Ajax, JQuery, Bootstrap, HTML, CSS, "
+        tech: "Django, Google Gemini, JavaScript, Ajax, JQuery, Bootstrap, HTML, CSS"
     },
 ];
 
