@@ -118,7 +118,7 @@ const dataportfolio = [
     },
        {
         img: "img/chatbot.png",
-        title: "Basic AI Chat Bot",
+        title: "mAI: An AI Chat Bot. (Project in Progress)",
         desctiption: "A user-friendly website featuring an AI chatbot to answer questions. Powered by Gemini, the chatbot leverages natural language processing (NLP) for engaging and informative user interactions. This project showcases my skills in artificial intelligence integration in web applications.",
         link: "https://rawychatbot.pythonanywhere.com/",
         tech: "Django, Google Gemini, JavaScript, Ajax, JQuery, Bootstrap, HTML, CSS, "
