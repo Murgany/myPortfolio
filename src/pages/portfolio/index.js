@@ -41,7 +41,8 @@ export const Portfolio = () => {
                 <div className="col-sm-8 po_item">
                   <div className="content ">
                     <h4 className="mb-3">{data.title}</h4>
-                    <p className="non-phone-screen text-muted">{data.desctiption}</p>
+                    <p className="non-phone-screen text-muted">{data.description}</p>
+                    
                     <details className="mobile">
                       <summary><strong>Project Description</strong></summary>
                     <p className="text-muted">{data.description}</p>
