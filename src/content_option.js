@@ -117,7 +117,7 @@ const dataportfolio = [
         tech: "Django, HTML, CSS, JavaScript, Ajax, JQuery, Bootstrap"
     },
        {
-        img: "img/church-website.png",
+        img: "img/chatbot.png",
         title: "Basic AI Chat Bot",
         desctiption: "A website that uses answers your questions. It is powered by Gemini, Google's most advanced AI API.",
         link: "https://rawychatbot.pythonanywhere.com/",
