@@ -44,7 +44,7 @@ export const Portfolio = () => {
                     <p className="non-phone-screen text-muted">{data.desctiption}</p>
                     <details className="mobile">
                       <summary><strong>Project Description</strong></summary>
-                    <p className="text-muted">{data.desctiption}</p>
+                    <p className="text-muted">{data.description}</p>
                     </details>
 
                     <div className="justify-content-center mt-5">
