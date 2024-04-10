@@ -112,9 +112,16 @@ const dataportfolio = [
         {
         img: "img/church-website.png",
         title: "Church Media Distribution Platform",
-        desctiption: "An online platform designed to provide access to audio sermons and PDF books to the congregation in Egypt. The website serves as a digital library where members can access a wide range of religious resources that help them deepen their faith and understanding of the Bible. The website is user-friendly and easy to navigate, with clear categories for sermons and books. Members can stream or download audio sermons and read or download PDF.",
+        desctiption: "An online platform designed to provide easy access to multimedia files like audio, video, and PDF. It is a digital library where users can access a range of media resources. The interface is responsive, user-friendly, and easy to navigate, with clear categories. All media is uploaded or embedded through a custom admin dashboard.",
         link: "https://frpakhomius.com/",
         tech: "Django, HTML, CSS, JavaScript, Ajax, JQuery, Bootstrap"
+    },
+       {
+        img: "img/church-website.png",
+        title: "Basic AI Chat Bot",
+        desctiption: "A website that uses answers your questions. It is powered by Gemini, Google's most advanced AI API.",
+        link: "https://rawychatbot.pythonanywhere.com/",
+        tech: "Django, Google Gemini, JavaScript, Ajax, JQuery, Bootstrap, HTML, CSS, "
     },
 ];
 
