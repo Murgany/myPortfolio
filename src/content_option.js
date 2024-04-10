@@ -112,14 +112,14 @@ const dataportfolio = [
         {
         img: "img/church-website.png",
         title: "Church Media Distribution Platform",
-        desctiption: "An online platform designed to provide easy access to multimedia files like audio, video, and PDF. It is a digital library where users can access a range of media resources. The interface is responsive, user-friendly, and easy to navigate, with clear categories. All media is uploaded or embedded through a custom admin dashboard.",
+        description: "A user-friendly online platform for accessing and sharing multimedia content. Provides easy access to a vast collection of audio, video, and PDF files, functioning as a comprehensive digital library. Features a responsive and user-friendly interface with clear categories, making it effortless to navigate for users of all technical backgrounds. Allows admin to upload or embed multimedia files through a custom-built admin dashboard, streamlining the publishing process.",
         link: "https://frpakhomius.com/",
         tech: "Django, HTML, CSS, JavaScript, Ajax, JQuery, Bootstrap"
     },
        {
         img: "img/chatbot.png",
         title: "Basic AI Chat Bot",
-        desctiption: "A website that uses answers your questions. It is powered by Gemini, Google's most advanced AI API.",
+        desctiption: "A user-friendly website featuring an AI chatbot to answer questions. Powered by Gemini, the chatbot leverages natural language processing (NLP) for engaging and informative user interactions. This project showcases my skills in artificial intelligence integration in web applications.",
         link: "https://rawychatbot.pythonanywhere.com/",
         tech: "Django, Google Gemini, JavaScript, Ajax, JQuery, Bootstrap, HTML, CSS, "
     },
