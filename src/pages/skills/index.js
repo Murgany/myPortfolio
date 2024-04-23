@@ -74,7 +74,7 @@ export const Skills = () => {
                   <h5 className="">{data.certificate}</h5>
                   <h6 className="text-muted">
                     {data.where} |{" "}
-                    <a href={data.verify_link} className="link-color">
+                    <a href={data.verify_link} className="link-color" target="_blank">
                       Verify
                     </a>
                   </h6>
