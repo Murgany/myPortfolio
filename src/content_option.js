@@ -125,13 +125,13 @@ const dataportfolio = [
     },
 ];
 
-  // {
-  //       img: "img/medecgulf.png",
-  //       title: "Medical Digital Engagement Center",
-  //       desctiption: "Built for Merck Group (google it), the Digital Engagement Center is a web-based platform for healthcare professionals. It provides the latest medical updates, case studies, and surveys related to diseases and treatments. Users can register and login for personalized content and access to additional features (This feature can be disabled by admin). The admin can download data in excel-compatible CSV format for analysis and reporting. The platform aims to improve patient outcomes by providing valuable insights and feedback to healthcare professionals and quality heathcare for patients.",
-  //       link: "https://medecgulf.com",
-  //       tech: "Django, HTML, CSS, JavaScript, Ajax, JQuery, Bootstrap"
-  //   },
+  {
+        img: "img/Pioneer Educational Center.png",
+        title: "A Two-In-One Website and School Management System",
+        desctiption: "This innovative offering combines two essential tools: A School website and a School Management System. This user-friendly website caters to promoting the school's mission and programs to a wider audience. The website features an easy-to-use admin dashboard, allowing school administrators to manage content efficiently. A separate, comprehensive School Management System: This system streamlines critical tasks like student registration, attendance tracking, grade management, financial records, and staff information. It includes a dedicated admin dashboard for managing student data effectively.",
+        link: "https://pioneereducationalcenter.pythonanywhere.com/",
+        tech: "Python, Django, HTML, CSS, JavaScript, Ajax, JQuery, Bootstrap"
+    },
 
 
 const contactConfig = {
