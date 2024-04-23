@@ -124,7 +124,7 @@ const dataportfolio = [
       {
         img: "img/Pioneer Educational Center.png",
         title: "A Two-In-One Website and School Management System",
-        desctiption: "This innovative offering combines two essential tools: A School website and a School Management System. This user-friendly website caters to promoting the school's mission and programs to a wider audience. The website features an easy-to-use admin dashboard, allowing school administrators to manage content efficiently. A separate, comprehensive School Management System: This system streamlines critical tasks like student registration, attendance tracking, grade management, financial records, and staff information. It includes a dedicated admin dashboard for managing student data effectively.",
+        description: "This innovative offering combines two essential tools: A School website and a School Management System. This user-friendly website caters to promoting the school's mission and programs to a wider audience. The website features an easy-to-use admin dashboard, allowing school administrators to manage content efficiently. A separate, comprehensive School Management System: This system streamlines critical tasks like student registration, attendance tracking, grade management, financial records, and staff information. It includes a dedicated admin dashboard for managing student data effectively.",
         link: "https://pioneereducationalcenter.pythonanywhere.com/",
         tech: "Python, Django, HTML, CSS, JavaScript, Ajax, JQuery, Bootstrap"
     },
