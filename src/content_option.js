@@ -116,31 +116,38 @@ const services = [{
 const dataportfolio = [
         {
         img: "img/mk.png",
-        title: "Showcasing the Muna Kalati mobile app",
+        title: "Showcasing the Muna Kalati Mobile App",
         description: "A website to showcase the Muna Kalati mobile app, an edtech platform empowering African children through culturally relevant digital learning resources. Our Muna App provides access to storybooks, audiobooks, and animated videos in multiple African languages.",
         link: "https://munakalati.pythonanywhere.com/",
-        tech: "Python/Django, JavaScript, Bootstrap, HTML, CSS"
+        tech: "Python/Django, SQLite3, JavaScript, Bootstrap, HTML, CSS"
+    },  
+   {
+        img: "img/shogholy.png",
+        title: "Refugee Market Place",
+        description: "A user-friendly online platform to help refugees in Egypt sell their products and services, build resumes in a few clicks, and search for jobs ",
+        link: "https://shogholy.frpakhomius.com/",
+        tech: "Django, MySQL, JavaScript, Ajax, JQuery, Bootstrap, HTML, CSS"
     },
         {
         img: "img/church-website.png",
         title: "Church Media Distribution Platform",
         description: "A user-friendly online platform for accessing and sharing multimedia content. Provides easy access to a vast collection of audio, video, and PDF files, functioning as a comprehensive digital library. Features a responsive and user-friendly interface with clear categories, making it effortless to navigate for users of all technical backgrounds. Allows admin to upload or embed multimedia files through a custom-built admin dashboard, streamlining the publishing process.",
         link: "https://frpakhomius.com/",
-        tech: "Django, JavaScript, Ajax, JQuery, Bootstrap, HTML, CSS"
+        tech: "Django, MySQL, JavaScript, Ajax, JQuery, Bootstrap, HTML, CSS"
+    },
+       {
+        img: "img/chatbot.png",
+        title: "mAI: AI Chat Bot. (Project in Progress)",
+        description: "A user-friendly website featuring an AI chatbot to answer questions. Powered by Gemini, the chatbot leverages natural language processing (NLP) for engaging and informative user interactions. This project showcases my skills in artificial intelligence integration in web applications.",
+        link: "https://rawychatbot.pythonanywhere.com/",
+        tech: "Django, Google Gemini, JavaScript, Ajax, JQuery, Bootstrap, HTML, CSS"
     },
       {
         img: "img/Pioneer Educational Center.png",
         title: "A Two-In-One Website and School Management System",
         description: "This innovative offering combines two essential tools: A School website and a School Management System. This user-friendly website caters to promoting the school's mission and programs to a wider audience. The website features an easy-to-use admin dashboard, allowing school administrators to manage content efficiently. A separate, comprehensive School Management System: This system streamlines critical tasks like student registration, attendance tracking, grade management, financial records, and staff information. It includes a dedicated admin dashboard for managing student data effectively.",
         link: "https://pioneereducationalcenter.pythonanywhere.com/",
-        tech: "Python, Django, HTML, CSS, JavaScript, Ajax, JQuery, Bootstrap"
-    },
-       {
-        img: "img/chatbot.png",
-        title: "mAI: An AI Chat Bot. (Project in Progress)",
-        description: "A user-friendly website featuring an AI chatbot to answer questions. Powered by Gemini, the chatbot leverages natural language processing (NLP) for engaging and informative user interactions. This project showcases my skills in artificial intelligence integration in web applications.",
-        link: "https://rawychatbot.pythonanywhere.com/",
-        tech: "Django, Google Gemini, JavaScript, Ajax, JQuery, Bootstrap, HTML, CSS"
+        tech: "Python,PostgreSQL Django, HTML, CSS, JavaScript, Ajax, JQuery, Bootstrap"
     },
 ];
 
