@@ -115,6 +115,13 @@ const services = [{
 
 const dataportfolio = [
         {
+        img: "img/mk.png",
+        title: "A website to showcase the Muna Kalati mobile app",
+        description: "A website to showcase, Muna Kalati mobile app, an edtech platform empowering African children through culturally relevant digital learning resources. Our Muna App provides access to storybooks, audiobooks, and animated videos in multiple African languages.",
+        link: "https://munakalati.pythonanywhere.com/",
+        tech: "Python/Django, JavaScript, Bootstrap, HTML, CSS"
+    },
+        {
         img: "img/church-website.png",
         title: "Church Media Distribution Platform",
         description: "A user-friendly online platform for accessing and sharing multimedia content. Provides easy access to a vast collection of audio, video, and PDF files, functioning as a comprehensive digital library. Features a responsive and user-friendly interface with clear categories, making it effortless to navigate for users of all technical backgrounds. Allows admin to upload or embed multimedia files through a custom-built admin dashboard, streamlining the publishing process.",
