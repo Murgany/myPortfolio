@@ -116,8 +116,8 @@ const services = [{
 const dataportfolio = [
         {
         img: "img/mk.png",
-        title: "A website to showcase the Muna Kalati mobile app",
-        description: "A website to showcase, Muna Kalati mobile app, an edtech platform empowering African children through culturally relevant digital learning resources. Our Muna App provides access to storybooks, audiobooks, and animated videos in multiple African languages.",
+        title: "Showcasing the Muna Kalati mobile app",
+        description: "A website to showcase the Muna Kalati mobile app, an edtech platform empowering African children through culturally relevant digital learning resources. Our Muna App provides access to storybooks, audiobooks, and animated videos in multiple African languages.",
         link: "https://munakalati.pythonanywhere.com/",
         tech: "Python/Django, JavaScript, Bootstrap, HTML, CSS"
     },
