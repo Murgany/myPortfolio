@@ -147,7 +147,30 @@ export const Home = () => {
         
         <div className="d-flex testimonial_items_hom mx-3 mx-lg-0 justify-content-center">
           <div className="row justify-content-center">
-            <div className="col-sm-5 mt-5 justify-content-center">
+           
+          <div className="col-sm-5 mt-5">
+              <div className="testimonial_item">
+                <img
+                  src="/img/testimonial.jpeg"
+                  alt=""
+                  className="img-fluid"
+                  style={{ borderRadius: "50%" }}
+                />
+              </div>
+
+              <p
+                className="py-3 text-center"
+                style={{ color: "var(--text-color-3)" }}
+              >
+                <strong>Muna Kalati</strong>
+              </p>
+              <p className="content">
+                "Muna Kalati is duly grateful for your contributions to the MK app website development, we appreciate you so much!
+Your flawless delivery has truly enhanced our online presence and we will forever remain grateful to you for these selfless acts of service."
+              </p>
+            </div>
+
+   <div className="col-sm-5 mt-5 justify-content-center">
               <div className="testimonial_item">
                 <img
                   src="/img/testimonial2.png"
@@ -172,27 +195,6 @@ export const Home = () => {
               </p>
             </div>
 
-          <div className="col-sm-5 mt-5">
-              <div className="testimonial_item">
-                <img
-                  src="/img/testimonial.png"
-                  alt=""
-                  className="img-fluid"
-                  style={{ borderRadius: "50%" }}
-                />
-              </div>
-
-              <p
-                className="py-3 text-center"
-                style={{ color: "var(--text-color-3)" }}
-              >
-                <strong>Muna Kalati</strong>
-              </p>
-              <p className="content">
-                "Muna Kalati is duly grateful for your contributions to the MK app website development, we appreciate you so much!
-Your flawless delivery has truly enhanced our online presence and we will forever remain grateful to you for these selfless acts of service."
-              </p>
-            </div>
           </div>
         </div>
       </section>
