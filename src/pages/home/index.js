@@ -190,8 +190,7 @@ export const Home = () => {
               </p>
               <p className="content">
                 "Muna Kalati is duly grateful for your contributions to the MK app website development, we appreciate you so much!
-Your flawless delivery has truly enhanced our online presence and we will forever remain grateful to you and the team for these selfless acts of service.
-We look forward to future collaborations and please do not hesitate to reach out to us when the need arises."
+Your flawless delivery has truly enhanced our online presence and we will forever remain grateful to you for these selfless acts of service."
               </p>
             </div>
           </div>
