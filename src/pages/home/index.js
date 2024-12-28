@@ -172,7 +172,7 @@ export const Home = () => {
               </p>
             </div>
 
-            {/* <div className="col-sm-5 mt-5">
+          <div className="col-sm-5 mt-5">
               <div className="testimonial_item">
                 <img
                   src="/img/testimonial.png"
@@ -186,18 +186,14 @@ export const Home = () => {
                 className="py-3 text-center"
                 style={{ color: "var(--text-color-3)" }}
               >
-                <strong>Poula Banoub</strong>
+                <strong>Muna Kalati</strong>
               </p>
               <p className="content">
-                "Rawy's masterful design
-                of our website has created a user-friendly digital hub
-                for healthcare. Healthcare professionals can watch our case study 
-                episodes, perticipate in serveys, and effortlessly schedule appointments
-                and connect with our team through integrated WhatsApp chat,
-                enhancing communication and streamlining healthcare services. A true
-                testament to Rawy's expertise."
+                "Muna Kalati is duly grateful for your contributions to the MK app website development, we appreciate you so much!
+Your flawless delivery has truly enhanced our online presence and we will forever remain grateful to you and the team for these selfless acts of service.
+We look forward to future collaborations and please do not hesitate to reach out to us when the need arises."
               </p>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>
