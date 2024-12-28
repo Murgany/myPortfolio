@@ -117,8 +117,8 @@ const dataportfolio = [
         {
         img: "img/mk.png",
         title: "Showcasing the Muna Kalati Mobile App",
-        description: "A website to showcase the Muna Kalati mobile app, an edtech platform empowering African children through culturally relevant digital learning resources. Our Muna App provides access to storybooks, audiobooks, and animated videos in multiple African languages.",
-        link: "https://munakalati.pythonanywhere.com/",
+        description: "A website to showcase the Muna Kalati mobile app, an edtech platform empowering African children through culturally relevant digital learning resources. The MunaKalati App provides access to storybooks, audiobooks, and animated videos in multiple African languages.",
+        link: "https://app.munaworld.org/",
         tech: "Python/Django, SQLite3, JavaScript, Bootstrap, HTML, CSS"
     },  
    {
