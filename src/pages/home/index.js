@@ -162,7 +162,7 @@ export const Home = () => {
                 className="py-3 text-center"
                 style={{ color: "var(--text-color-3)" }}
               >
-                <strong>Muna Kalati</strong>
+                <strong>Christiana Eleh</strong>
               </p>
               <p className="content">
                 "Muna Kalati is duly grateful for your contributions to the MK app website development, we appreciate you so much!
