@@ -21,6 +21,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'api',
+    'whitenoise.runserver_nostatic', #Make sure to add this 
+
+    #'django_createsuperuser', #new
 ]
 
 MIDDLEWARE = [
@@ -28,6 +31,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware', #make sure to add this line
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -84,3 +88,9 @@ CORS_ALLOW_ALL_ORIGINS = True
 # Media files (for uploaded project images)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+
+#BASE_DIR=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+# MEDIA_URLS ='/media/'
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
