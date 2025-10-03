@@ -18,8 +18,10 @@ export const Portfolio = () => {
     // default to the local Django backend at 127.0.0.1:8000 so requests reach the API.
     if (!apiBase && typeof window !== "undefined") {
       const host = window.location.hostname;
-      if (host === "localhost" || host === "127.0.0.1") {
-        apiBase = "http://127.0.0.1:8000";
+      if (host === "ec2-63-179-173-148.eu-central-1.compute.amazonaws.com" || host === "127.0.0.1") {
+        // apiBase = "http://127.0.0.1:8000";
+        apiBase = "ec2-63-179-173-148.eu-central-1.compute.amazonaws.com";
+        
       }
     }
     const source = axios.CancelToken.source();
