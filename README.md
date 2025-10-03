@@ -29,6 +29,13 @@ Start the server
 
 <pre>npm start</pre>
 
+If you're running the optional Django backend (in `backend/`), set the API base URL for development before starting the React app:
+
+```bash
+export REACT_APP_API_URL=http://localhost:8000
+npm start
+```
+
 ### More
 
 Modify pages content in  `src/content_option.js`.

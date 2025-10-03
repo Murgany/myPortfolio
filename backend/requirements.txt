@@ -1,0 +1,10 @@
+# Pinned to versions installed into project's virtualenv (Python 3.12)
+Django==5.2.6
+djangorestframework==3.16.1
+django-cors-headers==4.9.0
+
+asgiref==3.9.1
+sqlparse==0.5.3
+
+# Optional: Pillow is required for ImageField support in the admin
+Pillow

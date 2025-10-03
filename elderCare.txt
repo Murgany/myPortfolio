@@ -1,0 +1,5 @@
+Remote Geriatric Care Coordination Platform: 
+An integrated telehealth platform focused on elderly care, combining remote monitoring (wearables/sensors),
+video consultations, automated medication reminders, care plan sharing between doctors, nurses, 
+informal caregivers (mantelzorgers), and social interaction features to combat loneliness. 
+Emphasis on extreme user-friendliness for seniors.

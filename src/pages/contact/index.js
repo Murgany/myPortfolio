@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import * as emailjs from "emailjs-com";
+// Comment out emailjs usage — we'll send contact data to the Django backend instead.
+// import * as emailjs from "emailjs-com";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../../content_option";
@@ -19,49 +20,52 @@ export const ContactUs = () => {
 
   // Message submissiom
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setFormdata({ loading: true });
+    setFormdata({ ...formData, loading: true });
 
-    // collect form data
-
-    const templateParams = {
-      from_name: formData.email,
-      user_name: formData.name,
-      to_name: contactConfig.YOUR_EMAIL,
+    const payload = {
+      name: formData.name,
+      email: formData.email,
       message: formData.message,
     };
 
-    // send data through emailjs
+    try {
+      const apiBase = process.env.REACT_APP_API_URL || '';
+      const res = await fetch(`${apiBase}/api/contact/`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
 
-    emailjs
-      .send(
-        contactConfig.YOUR_SERVICE_ID,
-        contactConfig.YOUR_TEMPLATE_ID,
-        templateParams,
-        contactConfig.YOUR_USER_ID
-      )
-      .then(
-        (result) => {
-          // if successful
-          setFormdata({
-            loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
-            variant: "success",
-            show: true,
-          });
-        },
-        (error) => {
-          // if failed
-          console.log(error.text);
-          setFormdata({
-            alertmessage: `Faild to send!,${error.text}`,
-            variant: "danger",
-            show: true,
-          });
-          document.getElementsByClassName("co_alert")[0].scrollIntoView();
-        }
-      );
+      if (res.ok) {
+        setFormdata({
+          ...formData,
+          loading: false,
+          alertmessage: 'SUCCESS! Thank you for your message',
+          variant: 'success',
+          show: true,
+        });
+      } else {
+        const err = await res.json().catch(() => ({}));
+        setFormdata({
+          ...formData,
+          loading: false,
+          alertmessage: `Failed to send: ${JSON.stringify(err)}`,
+          variant: 'danger',
+          show: true,
+        });
+      }
+    } catch (error) {
+      setFormdata({
+        ...formData,
+        loading: false,
+        alertmessage: `Network error: ${error.message}`,
+        variant: 'danger',
+        show: true,
+      });
+    }
+    document.getElementsByClassName('co_alert')[0].scrollIntoView();
   };
   // Message submissiom end
 
